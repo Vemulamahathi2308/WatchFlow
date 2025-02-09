@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Navigation Bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: rgb(9, 110, 95);
+            padding: 30px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+        }
+
+        .menu {
+            color: rgb(212, 50, 50);
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a{
+          text-decoration: none;
+            padding: 80px;
+            color: aqua;
+        }
+        h1{
+            color: rgb(95, 200, 200);
+        }
+        a:hover{
+            color:rgb(213, 71, 104);
+        }
+        .style-container{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .movies,.webseries,.shortfilms{
+            width: 48%;
+            text-align: center;
+        }
+        .movies,.webseries,.shortfilms{
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            transition: transform 0.3s ease-in-out,opacity 0.3s ease-in-out;
+        }        
+        .movies a:hover,.shortfilms a:hover,.webseries a:hover{
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+        .movies img,.shortfilms img,.webseries img{
+            border-radius: 20px;
+        }
+        .movies h2,.webseries h2,.shortfilms h2{
+            margin-top: 20%;
+            font-size:24px;
+            color: rgb(120, 172, 189);
+        }
+        .movies a,.webseries a,.shortfilms a{
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .category{
+            text-align: center;
+
+        }
+        @media(max-width:768px){
+        .navbar{
+            flex-direction:column;
+            height:auto;
+            padding:20px;
+        }
+        .menu{
+            flex-direction: column;
+            gap:10px;
+        }
+        .hello img{
+            flex-direction: column;
+            width: 100%;
+            height:auto;
+        }
+        .mahi img{
+            flex-direction: column;
+            width: 33%;
+            height: auto;
+        }
+        .hi img{
+            flex-direction:column;
+            width: 33%;
+            height:auto;
+        }
+        .you img{
+            flex-direction: column;
+            width:33%;
+            height:auto;
+        }
+       }
+       @media(max-width:400px){
+        .navbar{
+            flex-direction:column;
+            height:auto;
+            padding:20px;
+        }
+        .menu{
+            flex-direction: column;
+            gap:10px;
+        }
+        .hello img{
+            flex-direction: column;
+            width: 100%;
+            height:auto;
+        }
+        .mahi img{
+            flex-direction: column;
+            width: 33%;
+            height: auto;
+        }
+        .hi img{
+            flex-direction:column;
+            width: 33%;
+            height:auto;
+        }
+        .you img{
+            flex-direction: column;
+            width:33%;
+            height:auto;
+        }
+       }
+       </style>
+</head>
+<body>
+    <nav class="navbar">
+        
+            </b><h1 style="font-style: italic; font-family: Verdana, Geneva, Tahoma, sans-serif;">WATCHFLOW</h1></b>
+            
+      
+        <ul class="menu">
+            <a href="#category">CATEGORY</a>
+            <a href="HOME.html">HOME</a>
+        </ul>
+    </nav>
+    <h1 style="text-align: center;"><div class="hello"><img src="stream exclusively (1).png" width="1520px"height="600px"></div></h1>
+    <div class="category">
+        <h3 style="color: black;">CATEGORY</h3>
+        <h4 style="color: grey;">stream movies,webseries and shortfilims for free now</h4>
+    </div>
+    <div  class="style-container" id="category">
+
+    <div class="movies">
+        <a href="MOVIES.html" target="_blank">
+            <div class="mahi"><img src="abominable-animated-movie-8k-eu-2048x1152.jpg" width="400px" height="200px" ></div>
+            <h2 style="text-align: center;text-decoration: none;">WATCH MOVIES</h2>
+            
+        </a>
+       
+    </div>
+    <div class="webseries">
+        <a href="WEB SERIES.html" target="_blank">
+            <div class="hi"><img src="webseries now.jpg" width="400px" height="200px"></div>
+            <h2 style="text-align: center;text-decoration: none;">WATCH WEB SERIES</h2>
+            
+        </a>
+        
+    </div>
+    <div class="shortfilms">
+        <a href="SHORT FILMS.html" target="_blank">
+            <div class="you"><img src="shortnow.jpg" width="400px" height="200px"></div>
+            <h2 style="text-align: center;text-decoration: none;">WATCH SHORT FILMS</h2>
+
+        </a>
+        
+    </div>
+</div>
+</body>
+</html>

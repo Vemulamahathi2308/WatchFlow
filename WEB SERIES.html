@@ -1,0 +1,51 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MOVIE PAGE</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);    
+        }
+        
+        .item{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 50px;
+            row-gap: 20px;
+            padding-top: 10px;
+            
+        }
+        @media(max-width:1000px)
+        {
+            .item{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media(max-width:500px)
+        {
+            .item{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        @media(max-width:100px)
+        {
+            .item{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="item">
+    <a href="oggy.html" target="_blank"><img src="OGGY.jpg"alt="this is pic of oggy and the cockroaches"width="400px";hegiht="500px"></a>
+    <a href="ROLL NO.21.html" target="_blank"><img src="th.jpg"alt="this is pic of roll no.21"width="400px";hegiht="500px"></a>
+    <a href="WE BARE BEARS.html" target="_blank"><img src="WE BARE BEARS.jpg"alt="this is pic of we bare bears"width="400px";hegiht="500px"></a>
+    <a href="DOREMON.html" target="_blank"><img src="doremmmmon.jpg"width="400px";hegiht="200px"></a>
+    <a href="TOM AND JERRY.html" target="_blank"><img src="tom-and-jerry-pictures-j8wc3s0af8qyy45x.jpg"width="400px";hegiht="730px"></a>
+    <a href="SHIN CHAN.html" target="_blank"><img src="SHIN CHAN.webp"width="400px"height="250px"></a>
+
+    </section>
+ </body>
+ </html>   

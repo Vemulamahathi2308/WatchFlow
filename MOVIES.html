@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MOVIE PAGE</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);    
+        }
+        
+        .item{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 15px;
+            row-gap: 10px;
+            padding: 20px;
+        }
+        @media(max-width:1000px)
+        {
+            .item{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media(max-width:500px)
+        {
+            .item{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        @media(max-width:100px)
+        {
+            .item{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="item">
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/mIPXHZ5mMX8?si=CD-eybgU6EDg3Skm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>HENRY</iframe>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/-uuhZFzlQ6A?si=c4zpRKkcD53FNMkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>WE BARE BEARS</iframe>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/Mstx_8Y2Wps?si=4V2_5u2_q6RgUauJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>TOM AND JERRY</iframe>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/Rr_uBx9oceI?si=sxNJpbG29Ye3dABW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>OGGY AND THE COCKROACHES</iframe>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/-W5M6GZ6mOc?si=WB8yTYzstlKIVR_X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>DOREMON</iframe>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/BorhuF9pClc?si=jFodgU3SuZeDyCw7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>ROLL NO.21</iframe>
+    </section>
+ </body>
+ </html>   
